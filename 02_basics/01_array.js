@@ -1,29 +1,29 @@
 // Array
 // Array function can not be assess using arbitory strign as index
 const myArr = [0, 1, 2, 3, 4, 5]
-// console.log(myArr[0]);
+console.log(myArr[0]);
 
-// const myArr2 = new Array(1,2,5,3)
-// console.log(myArr2[2]);
+const myArr2 = new Array(1,2,5,3)
+console.log(myArr2[2]);
 
-//  // Array Methods
+ // Array Methods
 
-// //  myArr.push(6)
+//  myArr.push(6)
 
-// //  myArr.pop() // remove last variable from the array 
+//  myArr.pop() // remove last variable from the array 
 
-//  myArr.unshift(9) // add variable at first position in the array 
+ myArr.unshift(9) // add variable at first position in the array 
 
-//  myArr.shift() // remove first variable from the array
+ myArr.shift() // remove first variable from the array
 
-//  console.log(myArr.includes(9));
+ console.log(myArr.includes(9));
  
-//  console.log(myArr.indexOf(3));
+ console.log(myArr.indexOf(3));
 
-//  const newArr = myArr.join() // Convert the array into String
-//  console.log(myArr);
-//  console.log(newArr);
-//  console.log(typeof newArr);
+ const newArr = myArr.join() // Convert the array into String
+ console.log(myArr);
+ console.log(newArr);
+ console.log(typeof newArr);
 
  // Slice, Splice
 console.log("Original Array");
