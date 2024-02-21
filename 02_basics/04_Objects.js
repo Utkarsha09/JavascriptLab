@@ -38,3 +38,15 @@ const obj2 = {3:"a",4:"b"}
 // merge object by using spred operator(...)
 const obje3 = {...obj1, ...obj2}
 console.log(obje3);
+
+
+const course ={
+    coursename: "JavaScript Lab",
+    price: "1000",
+    couseInstructor : "Utkarsha"
+}
+// Any Value can Destructure
+const {couseInstructor: instructor} = course
+// console.log(couseInstructor);
+console.log(instructor);
+
