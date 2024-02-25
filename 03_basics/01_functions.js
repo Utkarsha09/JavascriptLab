@@ -34,12 +34,12 @@ const result = addNew2Numbers(8,5)
 
 console.log("Result is::",result);
 
-// function loginUserMessage(username){
-//     return `${username} just logged in`
-// }
+function loginUserMessage(username){
+    return `${username} just logged in`
+}
 
-// console.log(loginUserMessage("Utkarsha"));
-// console.log(loginUserMessage());//when we not passes argument is called undefined
+console.log(loginUserMessage("Utkarsha"));
+console.log(loginUserMessage());//when we not passes argument is called undefined
 
 //Using If Else
 function loginUserMessage(username){
@@ -50,8 +50,8 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("Utkarsha"));
-// console.log(loginUserMessage());
+console.log(loginUserMessage("Utkarsha"));
+console.log(loginUserMessage());
 
 // If we don't know the number of parameters in the function
 
